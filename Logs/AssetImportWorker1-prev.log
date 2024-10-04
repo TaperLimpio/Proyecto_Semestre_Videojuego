@@ -1,0 +1,1075 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7829 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Virus/Proyecto_Semestre
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59683
+Successfully changed project path to: C:/Users/Virus/Proyecto_Semestre
+C:/Users/Virus/Proyecto_Semestre
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15968]  Target information:
+
+Player connection [15968]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4070613998 [EditorId] 4070613998 [Version] 1048832 [Id] WindowsEditor(7,Victorio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15968]  * "[IP] 10.30.16.47 [Port] 0 [Flags] 2 [Guid] 4070613998 [EditorId] 4070613998 [Version] 1048832 [Id] WindowsEditor(7,Victorio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 151.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Virus/Proyecto_Semestre/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.5613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007757 seconds.
+- Loaded All Assemblies, in  0.497 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 771ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (275ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.798 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1696ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (492ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (173ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (740ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (611ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.4 KB). Loaded Objects now: 4494.
+Memory consumption went from 145.8 MB to 145.5 MB.
+Total: 4.599600 ms (FindLiveObjects: 0.408700 ms CreateObjectMapping: 0.199400 ms MarkObjects: 3.676100 ms  DeleteObjects: 0.313600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 318.967633 seconds.
+  path: Assets/TileMaps/Fondo_2/bgrd_tree5.asset
+  artifactKey: Guid(2fabd8b63c796b24fab090580f8a256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Fondo_2/bgrd_tree5.asset using Guid(2fabd8b63c796b24fab090580f8a256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39eaa671a9c7cf809784c51992bd045b') in 0.074859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 260.742979 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_1.asset
+  artifactKey: Guid(0294f3c17d0727048bdaa694039cd4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_1.asset using Guid(0294f3c17d0727048bdaa694039cd4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a60613ce94149c57d487fd853a334512') in 0.017075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007563 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_3.asset
+  artifactKey: Guid(226a2f00595e4e543bd51f7d8ae25b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_3.asset using Guid(226a2f00595e4e543bd51f7d8ae25b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa3b12e80c0599ec852918ac4d0b8ce1') in 0.010250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_4.asset
+  artifactKey: Guid(5986dd64c942ef9478636dc5590b693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_4.asset using Guid(5986dd64c942ef9478636dc5590b693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7dd4143271c0d6289b9fce1bbf4f39b') in 0.006844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_6.asset
+  artifactKey: Guid(968312675f6b1774b977286247b0e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_6.asset using Guid(968312675f6b1774b977286247b0e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9dd384bc432d48b72f60fabd4d62e347') in 0.012861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_8.asset
+  artifactKey: Guid(4fc3f3b626ef47c4aaf46aed42ac1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_8.asset using Guid(4fc3f3b626ef47c4aaf46aed42ac1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ca39df706f2b40edafdfc4dc85b9af5') in 0.007079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_5.asset
+  artifactKey: Guid(fa1aeb82f0c461e4ea0e907196030175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_5.asset using Guid(fa1aeb82f0c461e4ea0e907196030175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93bfc743ec029697139113527cef54eb') in 0.007171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_2.asset
+  artifactKey: Guid(4eb999b5f9715374b980350194511d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_2.asset using Guid(4eb999b5f9715374b980350194511d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82bd347c901df909624b96e2ec24e722') in 0.011411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_13.asset
+  artifactKey: Guid(124fc75b49fc4cd40833c90ad6720522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_13.asset using Guid(124fc75b49fc4cd40833c90ad6720522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3103d5948f9c1d1339350ab951da39a2') in 0.008731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_7.asset
+  artifactKey: Guid(fe6dc575a78283042bbf58dbc9c40c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_7.asset using Guid(fe6dc575a78283042bbf58dbc9c40c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c53c44d04abace173efd62163889c848') in 0.012191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_16.asset
+  artifactKey: Guid(ae16b3aad8b9f3c4a96ca165a0e5be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_16.asset using Guid(ae16b3aad8b9f3c4a96ca165a0e5be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '980cd154536a827214017200056efc02') in 0.009242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_19.asset
+  artifactKey: Guid(657a7bc69f371cb4b83651183d0d1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_19.asset using Guid(657a7bc69f371cb4b83651183d0d1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1de2316d7649fcae65cee55582c2b2d4') in 0.008403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_9.asset
+  artifactKey: Guid(1edca0f7d5af12c4491cba89c57234e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_9.asset using Guid(1edca0f7d5af12c4491cba89c57234e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8a561219583bc771884ca85a765037b') in 0.006657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_21.asset
+  artifactKey: Guid(fa30b37988fce234d8b24a8479e4b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_21.asset using Guid(fa30b37988fce234d8b24a8479e4b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e44d470c939e07dce5cece2a4b120b29') in 0.009861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_24.asset
+  artifactKey: Guid(a3cfb663477a6a3448654ab16da95f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_24.asset using Guid(a3cfb663477a6a3448654ab16da95f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a537e4b6d1fdb40f131226dd00ce6b06') in 0.009026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_26.asset
+  artifactKey: Guid(e30d808df6d4f914da0601754993eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_26.asset using Guid(e30d808df6d4f914da0601754993eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd51a341e864ea225d695ad0a046c0d83') in 0.010849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_10.asset
+  artifactKey: Guid(451eacd3f5a2a534f8913fd10e21cf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_10.asset using Guid(451eacd3f5a2a534f8913fd10e21cf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bc4c9d4ff3bae0b68edb7ce279eb530') in 0.005179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_12.asset
+  artifactKey: Guid(c39a85ca52b933943ac7e12cc98bb280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_12.asset using Guid(c39a85ca52b933943ac7e12cc98bb280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bceb8c46489b59d980ed4e4f66d0c67') in 0.004783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_27.asset
+  artifactKey: Guid(d0be0ace634c0b84eb41f02b0577d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_27.asset using Guid(d0be0ace634c0b84eb41f02b0577d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1eb2dd94ed29b15a592857b91fb40ac9') in 0.012574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_32.asset
+  artifactKey: Guid(1111e8b3bde62d141add747c76f55778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_32.asset using Guid(1111e8b3bde62d141add747c76f55778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bcec1fe8f60a73729eeaf174633819d') in 0.005464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_33.asset
+  artifactKey: Guid(9a243390fabdd4e448f9f6913e3e73f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_33.asset using Guid(9a243390fabdd4e448f9f6913e3e73f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcb7208b3498ae60839c57f73a2fde79') in 0.012024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_35.asset
+  artifactKey: Guid(084e37690e2f4f747a42aa7811338941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_35.asset using Guid(084e37690e2f4f747a42aa7811338941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8dfe5955c6ea7bcadce6115a9e096e42') in 0.013914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_28.asset
+  artifactKey: Guid(92a363b72685c8d45be6c36244b91b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_28.asset using Guid(92a363b72685c8d45be6c36244b91b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '854cef441a0a4715b4f54dba34693865') in 0.015646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_20.asset
+  artifactKey: Guid(09f97307b92b9f44db3986a6a9d452db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_20.asset using Guid(09f97307b92b9f44db3986a6a9d452db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e89e122a283058a9213c3439e0a21147') in 0.014001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.074534 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_38.asset
+  artifactKey: Guid(5edb833397aae6d4895134d1d9bb3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_38.asset using Guid(5edb833397aae6d4895134d1d9bb3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd5848d7650124784d8301832aa3ee2c') in 0.012935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_40.asset
+  artifactKey: Guid(0d5bcf7af9bd95c43b332f4f035316a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_40.asset using Guid(0d5bcf7af9bd95c43b332f4f035316a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8d0b9afb2471cbf94c9911e74905afb') in 0.008287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_41.asset
+  artifactKey: Guid(359489ebcd3033d4484baa2ce0685a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_41.asset using Guid(359489ebcd3033d4484baa2ce0685a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95c4a4a1c7f975e0b2dba047a8e2198d') in 0.011142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_43.asset
+  artifactKey: Guid(3081899ef70211541a6769a734429752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_43.asset using Guid(3081899ef70211541a6769a734429752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36a378b24b4608257121040f44a52a7f') in 0.004887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010235 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_46.asset
+  artifactKey: Guid(d48c550db61db90419702a43ea05a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_46.asset using Guid(d48c550db61db90419702a43ea05a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e1ad7b4407d0cce352470f79f78f709') in 0.011201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_48.asset
+  artifactKey: Guid(e1fa16c64dd79b246bb7679360668db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_48.asset using Guid(e1fa16c64dd79b246bb7679360668db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '230028b8aeb3dccc49c7d9b60245b762') in 0.012646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.620000 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_50.asset
+  artifactKey: Guid(31c1444882dafba4f83f23435e45c1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_50.asset using Guid(31c1444882dafba4f83f23435e45c1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '87e3eaaef686251a082fca86f11d9c58') in 0.010760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_52.asset
+  artifactKey: Guid(0fdbd3c3ea53057438e2dae48ce2bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_52.asset using Guid(0fdbd3c3ea53057438e2dae48ce2bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94fe48c544b0a948b8362b5b7774a91f') in 0.010823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_54.asset
+  artifactKey: Guid(677fe75eaecf9c04d93c0809a4b273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_54.asset using Guid(677fe75eaecf9c04d93c0809a4b273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a7408c99d3bba529c33b6bf40d727a5') in 0.011489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_56.asset
+  artifactKey: Guid(270ddd0b06aee6947a1b98bc301e3a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_56.asset using Guid(270ddd0b06aee6947a1b98bc301e3a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12e1ce37e44ea52c03b6dfa11420f246') in 0.009896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_58.asset
+  artifactKey: Guid(f5e8fee062bb4c7458af6d48e785f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_58.asset using Guid(f5e8fee062bb4c7458af6d48e785f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84d1a8503cbbc75f6afa8821a0885841') in 0.010042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_60.asset
+  artifactKey: Guid(73a2d319234fa2244b83eca091a0c1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_60.asset using Guid(73a2d319234fa2244b83eca091a0c1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab0fe685b3e2c46457e38022daf31d52') in 0.010942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.097167 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_62.asset
+  artifactKey: Guid(e85439d5dc5aac74686f855842200ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_62.asset using Guid(e85439d5dc5aac74686f855842200ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2c85257b1ccbbb24c7350d1f6b75633') in 0.011410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_64.asset
+  artifactKey: Guid(84130be71b3b3ec49b93bff1f0a28cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_64.asset using Guid(84130be71b3b3ec49b93bff1f0a28cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81f48261dd80c453b7abde2fc83df8f6') in 0.011541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_66.asset
+  artifactKey: Guid(83d23a0894fe8cf448c2c0e71712e72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_66.asset using Guid(83d23a0894fe8cf448c2c0e71712e72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4703cd5b11acd7b4187d08990f5527d') in 0.010671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_68.asset
+  artifactKey: Guid(7f1ce03c08e859c4e95c88ee4a26539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_68.asset using Guid(7f1ce03c08e859c4e95c88ee4a26539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '140371a229db03b793ca52189337d03e') in 0.009558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_70.asset
+  artifactKey: Guid(e1ce4dbde37bf9742b6950226f894bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_70.asset using Guid(e1ce4dbde37bf9742b6950226f894bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2b5a57d61ed91b3626ee8ec37596d96') in 0.010248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_72.asset
+  artifactKey: Guid(bbb6eecee5a177349bdc6b6c7520e71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_72.asset using Guid(bbb6eecee5a177349bdc6b6c7520e71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd26cffb6b516de7a890c5cf1071bd493') in 0.011143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.570246 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_74.asset
+  artifactKey: Guid(894fcec6e91bab144acefc1268a2b30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_74.asset using Guid(894fcec6e91bab144acefc1268a2b30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55713f8bb07f6be0e7eda239cf0e248d') in 0.010993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_76.asset
+  artifactKey: Guid(3fbe7d199928d294dafdb140f60a28de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_76.asset using Guid(3fbe7d199928d294dafdb140f60a28de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2829c94a0a3be57e99edee0d0e4416ca') in 0.010624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_78.asset
+  artifactKey: Guid(de9aaea7fcbce114982fb56cd57ac2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_78.asset using Guid(de9aaea7fcbce114982fb56cd57ac2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f30f4e30e4cba0657bbf12e7b982e5fc') in 0.010347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_80.asset
+  artifactKey: Guid(77ae61fead61e2742b39678a389b478e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_80.asset using Guid(77ae61fead61e2742b39678a389b478e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a8fad3c07abe5cd676e55bbe183b06d') in 0.013415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_82.asset
+  artifactKey: Guid(7b970bd13d2024444889dc53df7538c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_82.asset using Guid(7b970bd13d2024444889dc53df7538c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e0b2e20a078ac277ddae641727c47ff') in 0.012312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_84.asset
+  artifactKey: Guid(90c97b36e26a5d849ad9160f33da1aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_84.asset using Guid(90c97b36e26a5d849ad9160f33da1aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b6ffb7ae46196bd47314ee659547a032') in 0.011826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.059937 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_86.asset
+  artifactKey: Guid(e5e6199504240c14294b6b6c22a61870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_86.asset using Guid(e5e6199504240c14294b6b6c22a61870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '734b54dc03226b4b08154a3ba0afdf0d') in 0.010580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_88.asset
+  artifactKey: Guid(f8a53ae2964dfa64e82ce722a70b0a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_88.asset using Guid(f8a53ae2964dfa64e82ce722a70b0a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b1fe166d333f1aecebaa0ce5c6e54c2') in 0.011638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_90.asset
+  artifactKey: Guid(d9134e65a654bae43957bb319f40e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_90.asset using Guid(d9134e65a654bae43957bb319f40e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17a6027ce10fd44e90669ed230dda896') in 0.011418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_92.asset
+  artifactKey: Guid(488ce63672bb32c40a3ddbd9744cd9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_92.asset using Guid(488ce63672bb32c40a3ddbd9744cd9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95040b963d04880012f9b74d40132a87') in 0.010714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_94.asset
+  artifactKey: Guid(924d1a595c9de2a48ae0ec9e22f06fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_94.asset using Guid(924d1a595c9de2a48ae0ec9e22f06fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b90d784ad406c2391358815771588c2b') in 0.011971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_96.asset
+  artifactKey: Guid(b359cb41ba268794f9f74e74eca06dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_96.asset using Guid(b359cb41ba268794f9f74e74eca06dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ef2eb6dfbb2f5ae326ef02219268c40') in 0.007068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.501387 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_98.asset
+  artifactKey: Guid(3d5bf27e0c98b034986fac88c1708a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_98.asset using Guid(3d5bf27e0c98b034986fac88c1708a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30c057d69810d3af064f7886b0975fb3') in 0.014122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_100.asset
+  artifactKey: Guid(5a38d91c3870ee646bc5cc5767faea2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_100.asset using Guid(5a38d91c3870ee646bc5cc5767faea2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '428575da4eb8831b950652bfdbc24695') in 0.016225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_101.asset
+  artifactKey: Guid(0008c5eeff0241e4984647fe5e638fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_101.asset using Guid(0008c5eeff0241e4984647fe5e638fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07f6ad12356db60ec13deb179befd321') in 0.013928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_104.asset
+  artifactKey: Guid(e8ba80bef0be48d468b8455c0860cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_104.asset using Guid(e8ba80bef0be48d468b8455c0860cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91766748e8a2279eed75e3e12ffa05fc') in 0.014502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_106.asset
+  artifactKey: Guid(e06e9c92b31557847a69ae2e7dd12dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_106.asset using Guid(e06e9c92b31557847a69ae2e7dd12dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8599c48d84295424567b498e931e4ea') in 0.013402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_108.asset
+  artifactKey: Guid(d2f91cbe67652fb4ea01656a551131a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_108.asset using Guid(d2f91cbe67652fb4ea01656a551131a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d4d9a6af49dffabb4eb787b622142ec') in 0.013704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.055062 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_110.asset
+  artifactKey: Guid(5400ecd89590cbb40a03fffa4e8fd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_110.asset using Guid(5400ecd89590cbb40a03fffa4e8fd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7060c0eb6e7ed117aa3e061a1c54c05') in 0.010957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_112.asset
+  artifactKey: Guid(2f31e1c949646b94a82e18d4fca28eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_112.asset using Guid(2f31e1c949646b94a82e18d4fca28eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2b7a9076f087673e0269c621404c953') in 0.011741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_114.asset
+  artifactKey: Guid(a9e6f54d495e68b4bae83f2936a81332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_114.asset using Guid(a9e6f54d495e68b4bae83f2936a81332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f53810225ff3614918ce73f45f72688f') in 0.009259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_116.asset
+  artifactKey: Guid(0c114332633265949a8817f1b6447a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_116.asset using Guid(0c114332633265949a8817f1b6447a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bbd7196a8f5bb6b3c1a1469f39a6cd3d') in 0.010289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_118.asset
+  artifactKey: Guid(5fe5d615653c6f246b5373676158ed0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_118.asset using Guid(5fe5d615653c6f246b5373676158ed0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0993f116244852bb8b8b6878076a4cbf') in 0.011834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_120.asset
+  artifactKey: Guid(52ad58f6ed32b6748aa6f37549dc7dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_120.asset using Guid(52ad58f6ed32b6748aa6f37549dc7dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '312e98b264c291c8d2ace199ff4fcd7f') in 0.007655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.242459 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_123.asset
+  artifactKey: Guid(cc31d46ccd84fa34980f67582bb8c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_123.asset using Guid(cc31d46ccd84fa34980f67582bb8c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '63c57b253669315c52776847447a55b2') in 0.012427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_125.asset
+  artifactKey: Guid(97c84a4181b85d644a754600387b4075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_125.asset using Guid(97c84a4181b85d644a754600387b4075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cc847054bf9b3ece0e9c6270f0506df') in 0.013378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_127.asset
+  artifactKey: Guid(68d0fc58461f10843bb410696869ae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_127.asset using Guid(68d0fc58461f10843bb410696869ae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '751420b94d88e8f4570ae0710f130b32') in 0.011584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_129.asset
+  artifactKey: Guid(99e9815e68483a546ad81f87affe83fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_129.asset using Guid(99e9815e68483a546ad81f87affe83fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b52318114b330000f7f7e8b47cf60ba7') in 0.010308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_131.asset
+  artifactKey: Guid(689623f5d27bb034aa76e2da815dc2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_131.asset using Guid(689623f5d27bb034aa76e2da815dc2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b42a6f89ba299712703eafe6c444b9b2') in 0.012300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014851 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_157.asset
+  artifactKey: Guid(cb2cb0c4bbf85084a97d7ac9b99e36a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_157.asset using Guid(cb2cb0c4bbf85084a97d7ac9b99e36a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09a97cdb93aae7938a456ba33e229801') in 0.007080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008910 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_160.asset
+  artifactKey: Guid(631f39e1e37821143bd2055e2aa49922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_160.asset using Guid(631f39e1e37821143bd2055e2aa49922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69a783a7d8c5198554d3eb2973bf09be') in 0.011014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003592 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_163.asset
+  artifactKey: Guid(09ccb967cf41cc1419c08b995ec73641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_163.asset using Guid(09ccb967cf41cc1419c08b995ec73641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b866153a68a523d1d2e87081c4d588e3') in 0.010174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004092 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_166.asset
+  artifactKey: Guid(cd1c0b3f2f40e3c45b07e77f2db640c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_166.asset using Guid(cd1c0b3f2f40e3c45b07e77f2db640c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b030fadf92770fad6bf6aaf94b9c04da') in 0.010137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005052 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_169.asset
+  artifactKey: Guid(ddb570e9e34b9154ab844023cd569ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_169.asset using Guid(ddb570e9e34b9154ab844023cd569ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '521ada323a94cea8991126374db913a4') in 0.011193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003623 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_172.asset
+  artifactKey: Guid(f8574a9286f629e47abb4ed77156da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_172.asset using Guid(f8574a9286f629e47abb4ed77156da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c32fb0e9ce8a63e00521cc53c139d0b4') in 0.010467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005093 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_175.asset
+  artifactKey: Guid(631aa5fd14013354b93e0cf0a65ec9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_175.asset using Guid(631aa5fd14013354b93e0cf0a65ec9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a93a4f13f6ab80fb1f32bbeb33b1d49') in 0.012050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014757 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_180.asset
+  artifactKey: Guid(ee2640b9a0d26e645984a9b05f00b1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_180.asset using Guid(ee2640b9a0d26e645984a9b05f00b1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69d0e14386be0269c7190322dd490306') in 0.010533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005142 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_183.asset
+  artifactKey: Guid(5d606532633575f4ab65dc7b5bbd0d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_183.asset using Guid(5d606532633575f4ab65dc7b5bbd0d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66f1a34909a0c2d9d7cf219495071e87') in 0.011385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004818 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_186.asset
+  artifactKey: Guid(07c13e8c19ae2974a9078f4edb09e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_186.asset using Guid(07c13e8c19ae2974a9078f4edb09e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2bbeb637aff74a272828dbc61747b904') in 0.010946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004042 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_189.asset
+  artifactKey: Guid(4e31b5cbabd564c429e43ab9dba522af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_189.asset using Guid(4e31b5cbabd564c429e43ab9dba522af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5548379dca2873954d76eec53910e57b') in 0.010840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.090046 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_195.asset
+  artifactKey: Guid(969013e4c95ed4840b443da7152e9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_195.asset using Guid(969013e4c95ed4840b443da7152e9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea6f24ceedb4fc637f9226046c89563c') in 0.017567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_198.asset
+  artifactKey: Guid(532169353832ed64f9e3c0f1ae7fe63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_198.asset using Guid(532169353832ed64f9e3c0f1ae7fe63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e47926f1cf87cbd7a09fa702caef9f9f') in 0.008689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008823 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_201.asset
+  artifactKey: Guid(6f0749f983fba694daefc45888cc3236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_201.asset using Guid(6f0749f983fba694daefc45888cc3236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9a0902f078812a1527c2e949aa3f41a') in 0.017504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001656 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_204.asset
+  artifactKey: Guid(d222ae34494e4f843bf8b4579c0cf751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_204.asset using Guid(d222ae34494e4f843bf8b4579c0cf751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3610358372867c5e87ce9101ac3ac4b7') in 0.008967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007807 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_207.asset
+  artifactKey: Guid(b82b65f98d89dce478c8820aa551e78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_207.asset using Guid(b82b65f98d89dce478c8820aa551e78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '861e951140224a05521208fcd257c5c6') in 0.012977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003546 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_210.asset
+  artifactKey: Guid(e61be862df5d1854b82b49f40aa7f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_210.asset using Guid(e61be862df5d1854b82b49f40aa7f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9138896b1af5ecff7a87e91a54ba7b4') in 0.013029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005142 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_213.asset
+  artifactKey: Guid(7161ccfbcb44cd647a9292e6898004e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_213.asset using Guid(7161ccfbcb44cd647a9292e6898004e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d419357530876283c072840609591c6') in 0.013219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035966 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_219.asset
+  artifactKey: Guid(68575ff83314273428ec6f6929669f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_219.asset using Guid(68575ff83314273428ec6f6929669f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfc0bc029e6aa48d86d8481a5be284a4') in 0.011223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010152 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_223.asset
+  artifactKey: Guid(5761daba3dbbc8244bc8ce2e6e7a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_223.asset using Guid(5761daba3dbbc8244bc8ce2e6e7a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd557e74258036cb721aadf80d5db9451') in 0.010152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016453 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_228.asset
+  artifactKey: Guid(b0d271bb0147fe346b3e2bfc02635adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_228.asset using Guid(b0d271bb0147fe346b3e2bfc02635adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f321e18ca8b3c225e6b963f4e05ae0a') in 0.013627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.043839 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_260.asset
+  artifactKey: Guid(71be3907710dde247b6b97a0fe321951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_260.asset using Guid(71be3907710dde247b6b97a0fe321951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ba1d4749da46a7526b56c6bf00b1bad') in 0.011021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004112 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_263.asset
+  artifactKey: Guid(eada2b71a89decc4cb98d6deedac083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_263.asset using Guid(eada2b71a89decc4cb98d6deedac083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea51da3c91d76c83204b67bf5bfea77e') in 0.010311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014606 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_268.asset
+  artifactKey: Guid(0ae3fb9e5d755c44c807a22bf68e8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_268.asset using Guid(0ae3fb9e5d755c44c807a22bf68e8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a7e2a39fbd9851b13cde2f5094bf7ac') in 0.010237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004382 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_271.asset
+  artifactKey: Guid(b412a5c1cc4c79247b65b692c72f1c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_271.asset using Guid(b412a5c1cc4c79247b65b692c72f1c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '260d5984173511b6a0eb7e750d7f40d4') in 0.007029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.040226 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_280.asset
+  artifactKey: Guid(88463486033d4804282e732857973002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_280.asset using Guid(88463486033d4804282e732857973002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c83c4e33a809f0785bdf8fdcab9e4602') in 0.009904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004482 seconds.
+  path: Assets/TileMaps/Suelo_sprite_2/castle_env_283.asset
+  artifactKey: Guid(1a40b0e674e75fd4cb38d6390ca45f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/Suelo_sprite_2/castle_env_283.asset using Guid(1a40b0e674e75fd4cb38d6390ca45f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3751b1277c74a9b5cf09d262c1fa452') in 0.009851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
