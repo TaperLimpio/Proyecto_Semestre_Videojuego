@@ -69,6 +69,7 @@
     <Compile Include="Assets\SmallScaleInt\Soldier - 2D Pixel Character\Example scene\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Pixel2DCastleTileset\about.txt" />
     <None Include="Assets\Dark_Forest\about.txt" />
   </ItemGroup>
   <ItemGroup>
